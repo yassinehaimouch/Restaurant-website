@@ -1,0 +1,22 @@
+.md-square{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  background: var(--lightGreen-1);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.md-square-icon{
+  height: 50px;
+  width: 50px;
+  margin-bottom: 1rem;
+  color: var(--green-1);
+}
+
+.md-square h1, h3{
+  color: var(--black-1);
+}

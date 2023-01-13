@@ -1,0 +1,38 @@
+.header-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  margin-top: 5rem;
+}
+
+.header-section img{
+  width: 40%;
+}
+
+.header-left-side h3{
+  color: var(--black-1);
+}
+
+.title{
+  font-weight: 600;
+  font-size: 2.2rem;
+  color: var(--black-1);
+}
+
+.btn-sec{
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--green-1);
+  cursor: pointer;
+}
+
+.header-left-side{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

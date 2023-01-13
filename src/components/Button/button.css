@@ -1,0 +1,11 @@
+.btn{
+  background-color: var(--green-1);
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.btn a{
+  color: var(--white-1);
+}
