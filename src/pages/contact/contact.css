@@ -1,0 +1,68 @@
+.contact-container{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.contact-container h1 {
+  font-size: 2.2rem;
+  color: var(--black-1);
+  font-weight: 600;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item label,
+.message {
+  font-size: 1.1rem;
+  font-family: Poppins;
+  color: var(--black-2);
+  font-weight: 500;
+}
+
+.textarea-container{
+  margin-top: 2rem;
+}
+
+.form-items{
+  margin-top: 2rem;
+}
+
+.form-item input {
+  width: 100%;
+  border: none;
+  background-color: var(--lightGreen-1);
+  font-size: 1rem;
+  font-family: Raleway;
+  font-weight: 600;
+  padding: 1.3rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  color: var(--black-2);
+}
+
+form textarea {
+  width: 100%;
+  border: none;
+  background-color: var(--lightGreen-1);
+  font-size: 1.4rem;
+  font-family: Raleway;
+  font-weight: 600;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  color: var(--black-2);
+  resize: vertical;
+  margin-bottom: 1rem;
+}
+
+
+.form-items {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}

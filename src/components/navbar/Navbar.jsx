@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import Logo from '../../assets/logo.png';
 import { MdOutlineSubject } from 'react-icons/md';
 import { GrClose } from 'react-icons/gr';
+import { NavLink } from "react-router-dom";
 import './navbar.css';
 
 const Navbar = () => {
@@ -42,10 +43,10 @@ const Navbar = () => {
         <MdOutlineSubject className='nav-icon' onClick={clickHandler} style={{display: clickDisplay}}/>
         <GrClose className='nav-icon-close' onClick={closeHandler} style={{display: closeDisplay}}/>
         <ul className={clicked ? 'nav-list show' : 'nav-list'}>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">Menu</a></li>
-          <li><a href="/">About</a></li>
-          <li><a href="/">Contact</a></li>
+          <li><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to="/menu">Menu</NavLink></li>
+          <li><NavLink to="/about">About</NavLink></li>
+          <li><NavLink to="/contact">Contact</NavLink></li>
           <button className='cta'><a href="/Book">Book Table</a></button>
         </ul>
       </nav>

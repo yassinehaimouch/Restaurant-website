@@ -5,6 +5,7 @@
   padding: 0.6rem 1.5rem;
   font-size: 1.25rem;
   font-weight: 500;
+  cursor: pointer;
 }
 .btn a{
   color: var(--white-1);
