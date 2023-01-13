@@ -1,0 +1,12 @@
+.diches-container{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.diches{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}

@@ -1,0 +1,34 @@
+.special{
+  background-color: var(--lightGreen-1);
+  width: 300px;
+  height: 550px;
+  padding: 8rem 1rem 1rem 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.special h3{
+  font-size: 1rem;
+  font-family: Raleway;
+  line-height: 1.7rem;
+  color: var(--black-1);
+}
+
+.special h1{
+  font-size: 1.55rem;
+  color: var(--black-1);
+}
+
+.image-item{
+  align-self: center;
+  width: 80%;
+  border-radius: 10px;
+  position: absolute;
+  top: -4rem;
+}
+
+.starts{
+  margin-bottom: 1.5rem;
+}
