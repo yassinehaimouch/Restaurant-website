@@ -11,6 +11,9 @@ const Dishes = () => {
         <Dish title="Vegan Salad bowl" price="12" image={img1} />
         <Dish title="Vegan Salad bowl" price="12" image={img1} />
         <Dish title="Vegan Salad bowl" price="12" image={img1} />
+        <Dish title="Vegan Salad bowl" price="12" image={img1} />
+        <Dish title="Vegan Salad bowl" price="12" image={img1} />
+        <Dish title="Vegan Salad bowl" price="12" image={img1} />
       </div>
     </section>
   );

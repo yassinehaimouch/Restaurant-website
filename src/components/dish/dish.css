@@ -1,5 +1,5 @@
 .dich-container{
-  width: 25%;
+  width: 370px;
   padding: 1rem;
   border-radius: 10px;
   background-color: var(--lightGreen-1);
@@ -7,6 +7,12 @@
   gap: 1rem;
 }
 
+.dich-desc{
+  width: 60%;
+}
+
 .dich-img{
   border-radius: 10px;
+  width: 40%;
+  height: 100%;
 }
